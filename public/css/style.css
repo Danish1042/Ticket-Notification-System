@@ -1,0 +1,19 @@
+/* Add this CSS to your stylesheet */
+.fancy-card {
+    border-radius: 15px;
+    border: 2px solid transparent;
+    transition: all 0.3s ease;
+    /* Add transition for all properties */
+    overflow: hidden;
+}
+
+.fancy-card:hover {
+    border-color: #00f, #0ff, #f00;
+    /* Use multiple colors for border */
+    transform: scale(1.05);
+    /* Increase size on hover */
+    box-shadow: 0 0 15px #00f, 0 0 15px #0ff, 0 0 15px #f00;
+    /* Add glow effect with multiple colors */
+}
+
+
